@@ -16,8 +16,105 @@
         </br><br>
         <label>Click button to check entered number is prime or not</label>
         <br>
-        <button class="form-button" onclick="handlers.primeNumberCheck()">Click Me</button><br><br>
+        <button onclick="handlers.primeNumberCheck()">Click Me</button><br><br>
         <div id="output1">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Exercise on Object </legend>
+        <button onclick="handlers.displayObject()"> Display Object </button>
+        <div id="array">
+        </div>
+        <div style="margin-top: 10px;">
+            <label>
+                Enter Id To check Status:
+            </label>
+            <input type="text" id="statusId">
+            <button onclick="handlers.statusCheck()">Check status</button>
+        </div>
+
+        <div>
+            <label>
+                If status is complete it will print true else it will print false
+            </label>
+        </div>
+        <div id="output2">
+
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Exercise on Array </legend>
+        <div style="margin-top: 10px;">
+            <label>
+                Enter Id To Get Project Details:
+            </label>
+            <input type="text" id="trainingId">
+            <button onclick="handlers.displayNameAndDescription()">Get Project Details</button>
+        </div>
+        <div id="output3">
+
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Exercise on Function </legend>
+        <div class="div-css">
+            <label>
+                Add Project:
+            </label>
+            <div>
+                <label>Enter Id</label>
+                <input type="text" id="id">
+            </div>
+            <div>
+                <label>
+                    Enter Name
+                </label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label>
+                    Enter Status
+                </label>
+                <input type="text" id="status">
+            </div>
+            <div>
+                <label>
+                    Enter Description
+                </label>
+                <input type="text" id="description">
+            </div>
+            <div>
+                <button onclick="handlers.addTraining()">Add Project</button>
+            </div>
+        </div>
+        <div class="div-css">
+            <label>
+                Change status
+            </label>
+            <div>
+                <label>Enter Id to change status</label>
+                <input type="text" id="changestatusid">
+            </div>
+            <div>
+                <label>Enter status text</label>
+                <input type="text" id="changestatus">
+            </div>
+            <button onclick="handlers.changeStatus()">  Change Status </button>
+        </div>
+        <div class="div-css">
+            <label>
+                Delete Object
+            </label>
+            <div>
+                <label>Enter Id to delete object</label>
+                <input type="text" id="deleteid">
+            </div>
+            
+            <button onclick="handlers.deleteObject()">  Delete Object </button>
+        </div>
+
+        <div id="output5">
+
         </div>
     </fieldset>
     <script type="text/javascript" src="js/index.js"></script>

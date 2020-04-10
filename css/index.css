@@ -4,3 +4,8 @@ button{
     height: 27px;
     width: 150px;
 }
+.div-css{
+    margin-top: 10px;
+border: 1px solid;
+width: 50%;
+}

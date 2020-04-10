@@ -14,8 +14,8 @@ Create a sample application in JavaScript to find out a project based on their i
 
 4. Exercise on Functions
 Create a sample application in JavaScript to perform the following task on list of Project object.
-1.     Add new project object in existing list.
-2.     Update the status of particular project object (InProgress to Completed).
-3.     Delete a particular project object.
+    1.  Add new project object in existing list.
+    2.  Update the status of particular project object (InProgress to Completed).
+    3.  Delete a particular project object.
 (Hint:  Create array of objects where each object contains project details (id , name , status) also create separate function for each operation )
 Sample Object → { pid : 101 , pname : ‘RMS’ , status : ‘InProgress’ }
